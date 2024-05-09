@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - Homepage</title>
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<head>
+    <!-- The head section contains metadata and links to external resources -->
+</head>
+<body>
+    <!-- The body section contains the visible content of the webpage -->
+
+    <!-- Header section -->
+    <header>
+        <h1>Ostuni</h1>
+    </header>
+
+    <!-- Banner section with navigation -->
+    <div class="banner">
+        <nav>
+            <ul>
+                <!-- Navigation links -->
+                <li><a href="index.html">Home</a></li>
+                <li><a href="ostuni.html">Ostuni</a></li>
+                <li><a href="MP_ostuni.html">Dialogo</a></li>
+                <li><a href="Diary.html">Diario di Marco Polo</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <!-- Introduction section -->
+    <section class="introduction_home">
+        <p>Benvenuti sulla mia pagina web. Questa pagina è ispirata da <i>Le Città Invisibili</i> di Italo Calvino. Clicca sull'immagine qui sotto per esplorare la pagina web o usa le schede di cui sopra per facilitare la navigazione. </p>
+    </section>
+
+    <!-- Image section -->
+    <section class="image-section_home">
+      <!-- Clickable areas -->
+    <div class="globe" id = "story_ostuni" onmouseover="highlightDoor1()"           onmouseout="unhighlightDoor1()" onclick="openDoor1()"></div>
+      <div class="acropolis" id = "diary" onmouseover="highlightDoor2()"   
+         onmouseout="unhighlightDoor2()" onclick="openDoor2()"></div>
+      <div class="spire" id = "ostuni" onmouseover="highlightDoor3()"     
+         onmouseout="unhighlightDoor3()" onclick="openDoor3()"></div>
+        <img src="https://www.foliosociety.com/media/catalog/product/i/n/invisible_cities_gallery_9.jpg?quality=80&fit=bounds&height=&width=&canvas=:" alt="Image">
+        <p class="image-caption_home">Attribuire  a The Folio Society.</p>
+    </section>
+
+<!-- Hidden summary box -->
+<div id="summaryBox1" class="summary">
+  <p><i>Gran Khan guardava la sua città dal balcone del suo palazzo. Mentre pensa alla sua città prospera e ai suoi laboriosi cittadini, lui riflette su alcuni dei racconti di Marco Polo. 
+    </i></p>
+</div>
+<div id="summaryBox2" class="summary">
+  <p>Di seguito è riportato un estratto dal diario di Marco Polo:</p>
+    <p>Sono arrivato a Ostuni quattro oggi fa e sono ancora stupito dallo splendore della città. 
+  </p>
+</div>
+<div id="summaryBox3" class="summary">
+  <p>Arroccato in cima a una collina nella regione Puglia d'Italia, è una bella città bianca, conosciuta anche come La Città Bianca.
+     </p>
+</div>
+  
+</body>
+<!-- partial -->
+  <script  src="./script.js"></script>
+
+</body>
+</html>
